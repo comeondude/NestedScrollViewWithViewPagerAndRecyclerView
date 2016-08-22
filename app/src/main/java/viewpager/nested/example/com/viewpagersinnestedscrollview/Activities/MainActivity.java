@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         setUpViewPager();
 
+        // Add this to prevent scrolling to the bottom of the page
         mNestedScrollView.smoothScrollTo(0, 0);
     }
 
